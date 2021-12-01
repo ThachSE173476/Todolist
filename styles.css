@@ -319,8 +319,16 @@ header {
         margin-bottom: 24px;
     }
 
+    .todo-input {
+        width: 180px;
+    }
+
     .content {
         width: 100%;
+    }
+
+    .todo-block {
+        max-width: 50%;
     }
 
     .content {
