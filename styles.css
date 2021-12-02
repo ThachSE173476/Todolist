@@ -332,9 +332,8 @@ header {
     }
 
     .todo-block {
-        min-width: 352px;
         margin: auto;
-        max-width: 100%;
+        width: 100%;
     }
 
     .content {
@@ -342,10 +341,5 @@ header {
     }
 }
 
-@media (max-width: 351px) {
-    .todo-block {
-        margin: auto;
-        max-width: 100%;
-    }
-}
+
 
