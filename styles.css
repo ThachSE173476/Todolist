@@ -323,16 +323,29 @@ header {
         width: 180px;
     }
 
+    .todo-header h1 {
+        width: 200px;
+    }
+
     .content {
         width: 100%;
     }
 
     .todo-block {
-        max-width: 98%;
+        min-width: 352px;
         margin: auto;
+        max-width: 100%;
     }
 
     .content {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 351px) {
+    .todo-block {
+        margin: auto;
+        max-width: 100%;
+    }
+}
+

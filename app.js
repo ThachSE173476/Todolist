@@ -179,6 +179,9 @@ function render(name, des, marks) {
             hideBtn.classList.remove('checked')
             isDone = false
         }
+        if (isDoneFilter == true) {
+            hideBtn.parentElement.parentElement.parentElement.classList.add('display-none')
+        }
     })
     // Edit and Delete
     const todoEdit = newBlock.querySelector('.todo-edit')
