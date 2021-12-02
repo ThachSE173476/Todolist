@@ -329,6 +329,7 @@ header {
 
     .todo-block {
         max-width: 90%;
+        margin: auto;
     }
 
     .content {
