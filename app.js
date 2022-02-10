@@ -112,7 +112,7 @@ function render(name, des, marks) {
     <div class="todo">
         <div class="todo-header">
             <h1>${name}</h1>
-            <i class="far fa-ellipsis-h"></i>
+            <i class="fa-solid fa-ellipsis"></i>
             <ul class="todo-edit">
                 <li class="edit">Edit</li>
                 <li class="delete">Delete</li>
@@ -224,7 +224,7 @@ function renderInput(name, des, marks) {
     <div class="todo">
         <div class="todo-header">
             <input type="text" class="todo-input" required placeholder="Name">
-            <i class="far fa-ellipsis-h"></i>
+            <i class="fa-solid fa-ellipsis"></i>
             <ul class="todo-edit">
                 <li class="edit">Edit</li>
                 <li class="delete">Delete</li>
